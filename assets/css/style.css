@@ -1,0 +1,81 @@
+
+
+  #container h2,img,div,p {
+    margin-left: 10px;
+}
+  #title {
+      background-color: rgba(253, 189, 69, 0.795);
+      width: 200px;
+      padding: 15px 0 15px 0;
+      top: -10px;
+      position: absolute;
+      color: white;
+  }
+body {
+    margin: 0%;
+}
+#instructions {
+    background-color: burlywood;
+    color: rgb(0, 128, 96);
+    width: 30%;
+    position: absolute;
+    top: 80px;
+    height: 48.5%;
+
+}
+ #background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: absolute; 
+    margin: 0%;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.9;
+ }
+ #crystal-images img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -290px;
+    background-color: white;
+    margin-left: 0px;
+    
+  }
+  #number-to-guess {
+    background-color: rgb(5, 180, 107);
+    height: 90px;
+    width: 20%;
+    position: absolute;
+    top: 415px;
+    color: purple;
+    
+  }
+  #wins-losses {
+      background-color: rgb(85, 223, 223);
+      height: 90px;
+      width: 7%;
+      top: 415px;
+      left: 265px;
+     position: absolute;
+     color: grey;
+  }
+
+  #total-score {
+        width: 21%;
+        background-color: teal;
+        top: 653px;
+        height: 95px;
+        position: absolute;
+        color: white;
+      
+        
+  }
+#total-score-text {
+        width: 21%;
+        top: 610px;
+        position: absolute;
+        background-color: teal;
+        color: white;
+}
+
+  

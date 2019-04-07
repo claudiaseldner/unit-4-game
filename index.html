@@ -10,14 +10,37 @@
     <script src="assets/javascript/game.js"></script>
 </head>
 <body>
-    <h2>Crystals Collector!</h2>
-    <!-- Instrucciones -->
-    <div>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis magna ut volutpat luctus. Aliquam cursus congue nisl quis sollicitudin. </p>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis magna ut volutpat luctus. Aliquam cursus congue nisl quis sollicitudin. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis magna ut volutpat luctus. Aliquam cursus congue nisl quis sollicitudin. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis magna ut volutpat luctus. Aliquam cursus congue nisl quis sollicitudin. </p>
-    </div>
+    <img id="background" src="assets/images/Background.jpg"> 
+
+        <span id="container">
+        <h2 id="title">Crystals Collector!</h2>
+        <!-- Instrucciones -->
+        <div id="instructions">
+            <p> You will be given a random number at the start of the game. </p>
+            <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+            <p> You win the game by matching your total score to random number, you lose the game if yout total score goes above the random number.</p>
+            <p> The value of each crystal is hidden from you until you click on it. </p>
+        </div>
+        <!-- Tablero de número a adivinar y  -->
+      
+        <div id="number-to-guess"></div>
+        <div id="wins-losses"></div>
+      
+
+      <!-- Images -->
+            <div id="crystal-images">
+            <img id="crystal1" src="./assets/images/Cristal 1.png">
+            <img id="crystal2" src="./assets/images/Cristal 2.png">
+            <img id="crystal3" src="./assets/images/Cristal 3.jpeg">
+            <img id="crystal4" src="./assets/images/Cristal 4.jpg">
+            </div>
+
+        <!--Your total score is text  -->
+            <div id="total-score"></div>
+            <p id="total-score-text">Your total score is </p>
+            
+
+</span>
 
 </body>
 </html>
